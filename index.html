@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="style2.css">
+
+    <title>Coder Lounge</title>
+    
+
+
+</head>
+<body>
+    <img class="logo"  width="150" src="logoc.jpg" alt="">
+<header>
+  
+    <span>
+    
+    <li class="btns"><a href="#home">الصفحة الرئيسية</a></li>
+    <li class="btns"><a href="#About">معلومات عنا</a></li>
+    <li class="btns"><a href="#Contact">تواصل معنا</a></li>
+    <li class="lang"><a href="https://coder-lounge.netlify.app/"><img src="lang_eng.png" alt=""></a></li>
+
+    </header>
+
+</span>
+
+<div id="mobile" onclick="toggleMobileMenu(this)">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+    <ul class="mobile-menu">
+        <li class="btns"><a href="#home">الصفحة الرئيسية</a></li>
+    <li class="btns"><a href="#About">معلومات عنا</a></li>
+    <li class="btns"><a href="#Contact">تواصل معنا</a></li>
+    <li class="lang"><a href="https://coder-lounge.netlify.app/">الانجليزية </a></li>
+
+    </ul>
+</div>
+    <h1 style="font-family: 'Poppins', sans-serif;" class="name">Coder Lounge</h1>
+    <div class="container"><h1  style="font-size: 35px; " class="dynamic-txts auto-type"></h1></div>
+
+
+    <h2  id="home"class="text-white hom">الصفحة الرئيسية</h2>
+    <p class="text-white hom"style=" font-size: 35px;">قريبا</p>
+    <h2 id="About" class="text-white abu" style="font-size: 35px;">معلومات عنا</h2>
+    <p  class="text-white abu"style=" font-size: 35px;">من نحن: مبادرة تقنية اطلقها طلاب وطالبات شغوفين تسهم في مساعدة الطلاب على اختيار مجالهم التقني ، واستقطاب المبدعين ، وإثراء المحتوى التقني ، وان تكون نقطة انطلاق للمبادرات التقنية</p>
+    <h2 id="Contact"class="text-white cont" > تواصل معنا</h2>
+    <a class="email" href="mailto:coder0lounge@gmail.com"><img src="emali logo.png" width="50" alt=""></a>
+    <a href="https://twitter.com/_coderlounge/"><img src="twitter logo.png" width="50" alt=""></a>
+    <h2 class=" text-white cont">للانضمام الينا <a href="https://docs.google.com/forms/d/e/1FAIpQLSfOkUmlht1J7jbKTqrJ0WfOJDykABmTKF85P9fhDtzMEWE5Hg/viewform">اضغط</a></h2>
+        
+                
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+    var typed = new Typed(".auto-type",{
+        strings: ["معلومات تقنية" ,"برمجة","تعلم","تطوير","التمكين"],
+        typeSpeed: 50,
+        backSpeed: 50,
+        loop: true
+
+    })
+    function toggleMobileMenu(menu) {
+    menu.classList.toggle('open');
+}
+</script>
+
+
+
+</body>
+</html>
